@@ -12,7 +12,7 @@ requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
 deploymentTarget = "static"
-publicDir = "spheron"
+publicDir = "templates"
 
 [[ports]]
 localPort = 3000
