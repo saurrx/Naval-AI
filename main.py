@@ -31,11 +31,7 @@ Naval's Response:"""
 
 @app.route('/')
 def home():
-    user_id = request.headers.get('X-Replit-User-Id')
-    user_name = request.headers.get('X-Replit-User-Name')
-    return render_template('index.html', 
-                         user_id=user_id,
-                         user_name=user_name)
+    return render_template('index.html')
 
 @app.route('/chat', methods=['POST'])
 def chat():
