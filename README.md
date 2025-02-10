@@ -6,8 +6,6 @@ A minimalist and philosophical AI chatbot that responds in the style of Naval Ra
 ## Features
 
 - 🧠 AI responses in Naval Ravikant's philosophical style
-- 🎨 Neobrutalist design aesthetic
-- 🌟 3D animated background using Three.js
 - 💻 Responsive and minimalist UI
 - 🚀 Powered by Spheron Network's GPU infrastructure
 
@@ -15,7 +13,6 @@ A minimalist and philosophical AI chatbot that responds in the style of Naval Ra
 
 - **Backend**: Python/Flask
 - **Frontend**: HTML, CSS, JavaScript
-- **3D Graphics**: Three.js
 - **AI Model**: LLaMA (hosted on Spheron Network)
 - **Font**: Space Mono
 
@@ -43,13 +40,10 @@ A minimalist and philosophical AI chatbot that responds in the style of Naval Ra
 ## Features
 
 - Real-time chat interface
-- Interactive 3D background animation
-- Neobrutalist design elements
 - Responsive layout for all devices
 - Naval Ravikant-style philosophical responses
 
 ## Credits
 
 - Built with Spheron Network's GPU infrastructure
-- Design inspired by neobrutalism and minimalist principles
 - Powered by LLaMA model
