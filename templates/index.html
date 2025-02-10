@@ -140,6 +140,18 @@
     <div id="canvas-container"></div>
     <div class="main-container">
         <div class="chat-container">
+    {% if user_id %}
+        <div class="user-info">
+            <p>Welcome, {{ user_name }}!</p>
+        </div>
+    {% else %}
+        <div class="login-container">
+            <p>Please log in to continue:</p>
+            <div class="login-button">
+                <script authed="location.reload()" src="https://auth.util.repl.co/script.js"></script>
+            </div>
+        </div>
+    {% endif %}
             <div class="chat-header">
                 <h1>Naval AI</h1>
                 <p>Wisdom & Insights Powered by Spheron Network</p>
